@@ -23,8 +23,6 @@ nav.navbar {
     box-shadow: 0 5px 15px rgba(0, 119, 255, 0.3);
     position: sticky;
     top: 0;
-    z-index: 1000;
-    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -48,8 +46,6 @@ nav.navbar .contact-info {
 nav.navbar .nav-links {
     display: flex;
     gap: 28px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     min-width: 200px;
 }
 
