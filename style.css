@@ -15,12 +15,12 @@ body {
 }
 
 nav.navbar {
-    background-color: #0077ff;
+    background: linear-gradient(135deg, #ffcc66, #ffb347);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 30px;
-    box-shadow: 0 5px 15px rgba(0, 119, 255, 0.3);
+    box-shadow: 0 6px 15px rgba(255, 179, 71, 0.4);
     position: sticky;
     top: 0;
     gap: 10px;
@@ -67,7 +67,7 @@ nav.navbar .nav-links a::after {
     transform: translateX(-50%);
     width: 0;
     height: 3px;
-    background: #ffdd33;
+    background: #97ff67;
     border-radius: 4px;
     transition: width 0.35s ease;
 }
@@ -151,10 +151,6 @@ ul {
     list-style-type: disc;
 }
 
-ul li {
-    margin-bottom: 14px;
-}
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -209,4 +205,7 @@ footer {
     font-size: 16px;
     user-select: none;
     letter-spacing: 0.8px;
+}
+html {
+    scroll-behavior: smooth;
 }
